@@ -28,7 +28,7 @@ export default function Banner() {
                 <div className="banner-two__inner clearfix">
                     <div className="banner-two__content wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="big-title">
-                            <h2>Web Designing<br/>is Brainpower<br/>Made Visible</h2>
+                            <h2>Web Designing<br/>is Brainpower<br/>Made Visibleing</h2>
                         </div>
                         <div className="text">
                             <p>There are many variations of passages of available, but the majority have suffered
