@@ -1,6 +1,7 @@
 
 'use client'
 import { useEffect, useState } from "react"
+import 'aos/dist/aos.css'
 import BackToTop from '../elements/BackToTop'
 import DataBg from "../elements/DataBg"
 import Breadcrumb from './Breadcrumb'
@@ -33,18 +34,23 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar)
 
     useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+        if (typeof window !== 'undefined') {
+            // Initialize AOS
+            const AOS = require('aos');
+            AOS.init({
+                offset: 0,
+                duration: 1000,
+                once: true,
+                easing: 'ease',
+            });
 
-        document.addEventListener("scroll", () => {
-            const scrollCheck = window.scrollY > 100
-            if (scrollCheck !== scroll) {
-                setScroll(scrollCheck)
-            }
-        })
+            document.addEventListener("scroll", () => {
+                const scrollCheck = window.scrollY > 100
+                if (scrollCheck !== scroll) {
+                    setScroll(scrollCheck)
+                }
+            });
+        }
     }, [])
     return (
         <>
