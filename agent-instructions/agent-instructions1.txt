@@ -1,0 +1,15 @@
+
+
+
+1. I would like you to change the navigation menu's inner container on current home page to have a white background and a floating look and a narrow capsule-like look.
+
+Refer to this screenshot URL for the reference style, and look:
+https://raw.githubusercontent.com/amit213/starter-kit/refs/heads/main/temp-res/navigation-style.jpg
+
+Rest of the header background can continue to remain as is. 
+
+You can create a new div or a wrapper class that covers the slim portion of the menu items, the logo and the button in the nav bar. This would allow it to give a floating narrow capsule like look and style. And then this selective new div or wrapper class can be assigned the white background while letting the rest of the header to continue with the existing background color. 
+
+The existing functionality of the nav menu items should remain unchanged and unaffected. This is only a visual style change related task.
+
+Ask me if you have any questions. 
