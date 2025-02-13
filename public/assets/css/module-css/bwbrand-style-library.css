@@ -1,0 +1,40 @@
+/*=============================
+	bwbrand style library Menu
+===============================*/
+
+
+/*=============================
+Main Header Customizations
+===============================*/
+
+.main-header-two__bottom-inner {
+
+    /*background-color: white; TODO */
+    background-color: whitesmoke;
+
+    border-radius: 10px;  /* Creates a capsule-like appearance */
+    /*overflow: hidden; */ /* Ensures child elements respect the border radius */
+}
+
+.menu-nav .navbar-wrap ul li a {
+    color: var(--thm-black) !important;
+}
+
+.main-header-one__bottom-inner .main-header-two__bottom-inner,
+.main-header-three__bottom-inner {
+    background-color: white;
+    border-radius: 10px; /* Creates a capsule-like appearance */
+
+}
+
+.main-header-one__bottom {
+    top: 40px !important; /* adjusted for agenshark */
+}
+
+.main-header-two__bottom {
+    top: 0px !important; /* adjusted for agenshark */
+}
+
+.main-header-three__bottom {
+    top: 40px !important; /* adjusted for agenshark */
+}

@@ -853,8 +853,10 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    background-color: white;
-    border-radius: 10px; /* Creates a capsule-like appearance */
+    
+    /* REFER to bwbrand-style-library.css */
+    /*background-color: white; TODO */ 
+    /*border-radius: 10px; */ /* Creates a capsule-like appearance */
     /*overflow: hidden; */ /* Ensures child elements respect the border radius */
 }
 
@@ -871,6 +873,7 @@
 .main-header-two .navbar-wrap ul li a {
     /*color: var(--thm-white); */
     color: var(--thm-black);
+    /*color: var(--thm-primary);*/
 
 }
 
@@ -1092,3 +1095,4 @@ Main Header Three About
 .main-header-three.about .sticky-menu {
     background: var(--thm-black);
 }
+

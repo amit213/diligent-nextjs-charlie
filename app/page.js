@@ -1,35 +1,37 @@
+
 import Layout from "@/components/layout/Layout"
-import About from "@/components/sections/home1/About"
-import Banner from "@/components/sections/home1/Banner"
-import Service from "@/components/sections/home1/Service"
-import Blog from "@/components/sections/home1/Blog"
-import Testimonial from "@/components/sections/home1/Testimonial"
-import Cta from "@/components/sections/home1/Cta"
-import Partner from "@/components/sections/home1/Partner"
-import Project from "@/components/sections/home1/Project"
-import Team from "@/components/sections/home1/Team"
-import Work from "@/components/sections/home1/Work"
+import Cases from "@/components/sections/home2/Cases"
+import Partner from "@/components/sections/home2/Partner"
+import Service from "@/components/sections/home2/Service"
+import About from "@/components/sections/home2/About"
+import Banner from "@/components/sections/home2/Banner"
+import Blog from "@/components/sections/home2/Blog"
+import Cta from "@/components/sections/home2/Cta"
+import Features from "@/components/sections/home2/Features"
+import Pricing from "@/components/sections/home2/Service"
+import Team from "@/components/sections/home2/Team"
+import Testimonial from "@/components/sections/home2/Testimonial"
 
 
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1}>
-                <Banner />
-                <Service />
-                <About />
-                <Partner />
-                <Project />
-                <Cta />
-                <Team />
-                <Work />
-                <Testimonial />
-                <Blog />
-                
-            
-            </Layout>
-
+            <div className="homestyle2">
+                <Layout headerStyle={2} footerStyle={2}>
+                    <Banner />
+                    <Service />
+                    <Partner />
+                    <About />
+                    <Cases />
+                    <Pricing />
+                    <Testimonial />
+                    <Team />
+                    <Features />
+                    <Blog />
+                    <Cta />                
+                </Layout>
+            </div>
         </>
     )
 }

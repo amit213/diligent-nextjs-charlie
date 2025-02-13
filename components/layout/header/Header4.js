@@ -46,7 +46,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="main-header-three__bottom-left">
                                 <div className="logo-box-one">
                                     <Link href="/">
-                                        <img src="assets/img/resource/logo-4.png" alt="Logo"/>
+                                        <img src="assets/img/resource/logo-3.png" alt="Logo"/>
                                     </Link>
                                 </div>
                             </div>
