@@ -2,6 +2,13 @@
 	bwbrand style library Menu
 ===============================*/
 
+:root {
+    --bwbrand-accent1-color: #f0975b;
+    /*--primary-font: Arial;
+    --spacing: 20px; */
+  }
+
+
 
 /*=============================
 Main Header Customizations
@@ -27,6 +34,21 @@ Main Header Customizations
 
 }
 
+
+.main-header-two__bottom .sticky-menu {
+    background-color: transparent !important;
+    box-shadow: 0 0px 0px rgba(25, 25, 25, 0.1) !important;
+}
+.main-header-three.about .sticky-menu {
+    background-color: transparent !important;
+    box-shadow: 0 0px 0px rgba(25, 25, 25, 0.1) !important;
+}
+
+.main-header-two__bottom .sticky-menu,
+.main-header-three__bottom .sticky-menu {
+    top: 20px; /* adjusted for agenshark */
+}
+
 .main-header-one__bottom {
     top: 40px !important; /* adjusted for agenshark */
 }
@@ -37,4 +59,46 @@ Main Header Customizations
 
 .main-header-three__bottom {
     top: 40px !important; /* adjusted for agenshark */
+}
+
+.sticky-header .menu-area .sticky-menu {
+    /*background-color: transparent important;*/
+    background-color: blueviolet !important;
+    
+}
+
+/*=============================
+ Header button Customizations
+===============================*/
+
+
+.header-btn-box-two a.thm-btn {
+    height: 10%;  /* Height adjusts to content */
+    width: 100%;
+    padding: 15px 20px 15px 20px;  /* Adjusts the padding */
+    right: 10%;
+    border-radius: 7px;
+    margin: 0 auto; /* Centers the button horizontally */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    line-height: 22px !important;    
+
+    /*color: var(--bwbrand-accent1-color) !important; */
+    
+
+}
+
+.header-btn-box-two a.thm-btn:after {
+    background-color: var(--bwbrand-accent1-color) !important;
+}
+
+.header-btn-box-twozz {
+    /*width: 100%; */   /* Full width of parent container */
+    max-width: 200px;  /* Maximum width */
+    height: 20%;  /* Height adjusts to content */
+    min-height: 4px;  /* Minimum height */
 }
