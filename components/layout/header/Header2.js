@@ -15,7 +15,7 @@ export default function Header2({ scroll, handlePopup, handleMobileMenu }) {
                             <div className="main-header-two__bottom-left">
                                 <div className="logo-box-one">
                                     <Link href="/">                                        
-                                        <img src="assets/img/resource/logo-2.png" alt="Logo"/>
+                                        <img src="assets/img/resource/logo-3.png" alt="Logo"/>
                                     </Link>
                                 </div>
                             </div>
